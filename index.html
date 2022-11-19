@@ -5,53 +5,55 @@
     <title>Technova Journal</title>
     <link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="css/styles.css"> <!-- Personal Style Sheet -->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <!--Main Body-->
 <!--Navbar-->
-<!--Level 1-->
-<nav class="navbar navbar-expand-lg navbar-dark hm_nb_1">
-    <div class="navbar-brand d-flex">
-        <div class="technova-logo d-flex align-items-center justify-content-around hm_nb_1_tn">
-            <img src="assets/images/technova.jpg" alt="technova logo" width="70px">
-            <h5 class="mt-2">Technova<br>Publications</h5>
+<div class="nb_main sticky-top">
+    <!--Level 1-->
+    <nav class="navbar navbar-expand-lg navbar-dark hm_nb_1">
+        <div class="navbar-brand d-flex">
+            <div class="technova-logo d-flex align-items-center justify-content-around hm_nb_1_tn">
+                <img src="assets/images/technova.jpg" alt="technova logo" width="70px">
+                <h5 class="mt-2">Technova<br>Publications</h5>
+            </div>
         </div>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 hm_nb_1_sr" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
-<!--Level 2-->
-<nav class="navbar navbar-expand-lg navbar-dark hm_nb_2">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 hm_nb_1_sr" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!--Level 2-->
+    <nav class="navbar navbar-expand-lg navbar-dark hm_nb_2">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent2">
-        <ul class="navbar-nav mr-auto ml-auto hm_nb_2_list">
-            <li class="nav-item active">
-                <a class="nav-link hm_nb_2_links" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link hm_nb_2_links" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link hm_nb_2_links" href="#">Journals</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link hm_nb_2_links" href="#">Contact Us</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+            <ul class="navbar-nav mr-auto ml-auto hm_nb_2_list">
+                <li class="nav-item active">
+                    <a class="nav-link hm_nb_2_links" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hm_nb_2_links" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hm_nb_2_links" href="#">Journals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hm_nb_2_links" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
 <!--Navbar End-->
 
 <!--Header-->
@@ -65,17 +67,125 @@
 
 <!--section 1-->
 <section class="hm_sect_1">
-    <div class="hm_sect_1_content mr-auto ml-auto p-5">
+    <div class="hm_sect_1_content mr-auto ml-auto py-5">
         <h2 class="text-center">About Technova</h2>
         <p class="mt-5">Technova publication is a global academic publisher of journals multiple disciplines with broad scope. It serve free and open access journals to all Industry, academicians, consultants, scientists, researchers, scholars and students.</p>
         <p class="mt-2">Technova Publications publish information and technological solutions that enhance the performance of science, health, and technology professionals. All articles which are published by Technova publications have undergone peer review and upon acceptance are immediately and permanently free for everyone to read and download.</p>
-        <p class="mt-2">Types of papers accepted - Research articles, Survey articles, Review articles, Case studies and Book reviews</p>
+        <div class="hm_sect_1_btn text-center my-5">
+            <a class="btn btn-outline-dark" href="#">Read more</a>
+        </div>
+        <p class="mt-2 text-center bg-dark text-light px-2">Types of papers accepted - Research articles, Survey articles, Review articles, Case studies and Book reviews</p>
     </div>
 </section>
 <!--section 1 End-->
 
-<!--Main Body End-->
+<!--Footer-->
+<footer class="text-light text-center text-lg-start ft_main">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!--Grid row-->
+        <div class="row ft_main_lists">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-2">Categories</h5>
 
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!" class="text-light">Journals</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Proceedings</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">SIGs</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Conferences</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">People</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-2">About</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!" class="text-light">About Technova Publications</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Subscription Information</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Author Guidelines</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-2">Join</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!" class="text-light">Join as Managing Editor</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Join as Associate Editor</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Join as Area Editor</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Join as Reviewer</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Subscribe to Publications</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-2">Connect</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!" class="text-light">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-light">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="p-3 d-flex justify-content-center flex-column align-items-center" style="background-color: rgba(0, 0, 0, 0.2);">
+        <img src="assets/images/jiscom_logo.png" alt="Logo" width="80px">
+        <span class="mt-3">The Technova Publications. Copyright © 2020 Technova, Inc.</span>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!--Footer End-->
+
+<!--Main Body End-->
 
 <!--Scripts-->
 <script src="js/jquery-3.6.1.min.js"></script>

@@ -75,7 +75,19 @@
     color: white;
     background-color: black;
 }
+
 /*==========Section 1==========*/
+/*==========Section 1 End==========*/
+
+/*==================Footer==================*/
+.ft_main {
+    background-color: black;
+}
+
+.ft_main_lists ul li a{
+    text-decoration: none;
+}
+/*==================Footer End==================*/
 
 
 /*====================Home Page End====================*/
