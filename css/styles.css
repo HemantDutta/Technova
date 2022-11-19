@@ -1,0 +1,30 @@
+/*==========Navbar==========*/
+.hm_nb_1 {
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+/*Technova logo*/
+.hm_nb_1_tn {
+    gap: 10px;
+}
+
+/*search input*/
+.hm_nb_1_sr{
+    background: transparent;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.hm_nb_1_sr:focus {
+    background: transparent;
+    box-shadow: none;
+}
+
+.hm_nb_2 {
+    background-color: black;
+}
+
+
+/*==========Navbar End==========*/
