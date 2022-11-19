@@ -1,3 +1,5 @@
+/*====================Home Page====================*/
+
 /*==========Navbar==========*/
 .hm_nb_1 {
     background-color: black;
@@ -24,7 +26,56 @@
 
 .hm_nb_2 {
     background-color: black;
+    min-height: 70px;
 }
 
+/*Nav Link List*/
+.hm_nb_2_list {
+    gap: 20px;
+}
+
+/*Nav Links*/
+.hm_nb_2_links {
+    transition: all 1000ms ease;
+}
+
+.hm_nb_2_links:hover {
+    border-bottom: 1px solid white;
+}
 
 /*==========Navbar End==========*/
+
+/*==========Header==========*/
+.hm_hd {
+    display: grid;
+    place-items: center;
+    height: 14rem;
+    background-image: url("../assets/images/hm_hd_bg.jpg");
+    background-position: center;
+}
+
+.hm_hd h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+/*==========Header End==========*/
+.hm_sect_1 {
+}
+
+.hm_sect_1_content {
+    width: 60vw;
+}
+
+.hm_sect_1_content p {
+    text-align: justify;
+}
+
+.hm_sect_1_content p::selection {
+    color: white;
+    background-color: black;
+}
+/*==========Section 1==========*/
+
+
+/*====================Home Page End====================*/
