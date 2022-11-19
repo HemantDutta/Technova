@@ -80,8 +80,15 @@
 /*==========Section 1 End==========*/
 
 /*==================Footer==================*/
+
+footer {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(31, 31, 31, 0.6)), url("../assets/images/footer_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .ft_main {
-    background-color: black;
+
 }
 
 .ft_main_lists ul li a{
