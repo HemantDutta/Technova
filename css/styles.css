@@ -1,3 +1,9 @@
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /*====================Home Page====================*/
 
 /*==========Navbar==========*/
@@ -94,7 +100,50 @@ footer {
 .ft_main_lists ul li a{
     text-decoration: none;
 }
+
+.sticky-bottom{
+    margin-top: auto;
+}
+
+.ft_icons {
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 8px;
+    transition: all 0.4s ease;
+}
+
+.ft_icons:hover {
+    color: black;
+    background: white;
+}
 /*==================Footer End==================*/
 
 
 /*====================Home Page End====================*/
+
+/*====================About Page====================*/
+
+.ab_sect_2 {
+    background-color: #fdf8f1;
+}
+
+.spacer {
+    aspect-ratio: 1920/100;
+    /*width: 100vw;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mid-layer {
+    background-image: url(../assets/ab_spacer.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ab_map{
+    width: 60vw;
+}
+
+/*====================About Page End====================*/
