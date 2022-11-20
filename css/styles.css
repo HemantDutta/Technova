@@ -147,3 +147,26 @@ footer {
 }
 
 /*====================About Page End====================*/
+
+/*====================Contact Page====================*/
+
+.cu_info {
+    background: #0068ff;
+    background: -webkit-linear-gradient(0deg, #0068ff 0%, #67009b 100%);
+    background: linear-gradient(0deg, #0068ff 0%, #67009b 100%);
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.ct_sect_1 {
+    /*width: 100vw;*/
+    height: 100vh;
+}
+
+
+.ct_form_box {
+    border-radius: 20px;
+}
+
+/*====================Contact Page End====================*/
