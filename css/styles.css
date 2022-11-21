@@ -161,12 +161,78 @@ footer {
 
 .ct_sect_1 {
     /*width: 100vw;*/
-    height: 100vh;
+    height: max-content;
+    margin-bottom: 5em;
 }
 
+.form-area {
+    padding-top: 7%;
+}
 
-.ct_form_box {
-    border-radius: 20px;
+.row.single-form {
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+    background: white;
+}
+
+.left {
+    background: #474bff;
+    background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    padding: 200px 98px;
+    height: 100%;
+}
+
+.left h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.left h2 span {
+    font-weight: 100;
+}
+
+.right {
+    padding: 70px;
+    position: relative;
+}
+
+.right i {
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40px;
+    color: white;
+}
+
+.form-control {
+    border: 2px solid black;
+}
+
+.right button {
+    border: none;
+    border-radius: 0;
+    background: #252525;
+    width: 180px;
+    color: white;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.right button:hover {
+    background: #252525;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
 }
 
 /*====================Contact Page End====================*/
